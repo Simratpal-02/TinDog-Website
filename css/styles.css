@@ -1,0 +1,184 @@
+body{
+    font-family: montserrat;
+}
+
+#title{
+    background-color: #ff4c68;
+    
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+    color: white;
+}
+
+/* NAVBAR */
+#navbar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family:"Montserrat-light";
+}
+
+
+/* TITLE */
+h1{
+    font-family: montserrat-black;
+    font-size:450%;
+    font-weight: 900;
+    margin-bottom: 2.5rem;
+}
+
+
+.dwnld-btn{
+    margin: 2.5%;
+}
+.title-iphone-img{
+    position: relative;
+}
+#iphone-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position:absolute;
+    right:15%;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    #iphone-img{
+        position: static;
+        transform: rotate(0deg);
+    }
+    .title-iphone-img{
+        margin-top: 15%;
+    }
+}
+
+/* FEATURES */
+
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    font-family: "Monsterrat-bold";
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.fac-col{
+    padding: 5%;
+}
+.fac-ico{
+    color: #ef8172;
+    margin-bottom: 1.5rem;
+}
+.fac-title{
+    font-weight: 900;
+}
+.fac-p{
+    color: #8f8f8f;
+}
+.fac-ico:hover{
+    color: #ff4c68;
+}
+
+
+/* TESTIMONIALS */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+}
+.car-div{
+    padding: 7% 15%;
+}
+.test-title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:320%;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+    color: #fff;
+}
+
+.test-img{
+    width: 10%;
+    border-radius: 50%;
+    margin: 4%;
+}
+
+
+/* PRESS */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* PRICING */
+#pricing{
+    text-align: center;
+    padding:100px;
+}
+.pricing-col{
+    padding:3% 2%;
+}
+.card-body{
+    padding-top: 4%;
+    color:#8f8f8f
+}
+h2{
+    color:black;
+}
+.btn-price{
+    margin:20px;
+}
+
+
+
+
+/* CTA */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+}
+#cta-div{
+    padding: 7% 12% 6%;
+}
+#cta-head{
+    color:#fff;
+    font-weight: 900;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 300%;
+    margin-bottom: 7%;
+    padding: 0 15%;
+}
+
+
+/* FOOTER */
+#footer{
+    background-color: #fff;
+    margin: 5% 0 7%;
+    text-align: center;
+}
+.foo-ico{
+    margin: 0 1% 2%;
+}
+#foo-txt{
+    color:#8f8f8f;
+}
+
+.foo-ico:hover{
+    cursor: pointer;
+    color: #696060;
+}
